@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "conCrastinator",
+  "description": "Blocks access to twitter and facebook",
+  "version": "1.0",
+	"content_scripts": [
+		{
+			"matches": [
+				"*://*.facebook.com/*",
+				"*://*.twitter.com/*"
+			],
+			"css": ["mystyles.css"],
+			"js": ["myscripts.js"]
+		}
+	],
+	"web_accessible_resources": [
+    "danger.jpeg"
+  ]
+}

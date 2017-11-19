@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Snowburst+One');
+html, body {
+    height: 100%;
+    margin: 0;
+}
+.wrap {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h1 {
+    font-family: 'Snowburst One', cursive;
+    color:#C96F1F;
+    background: #D4C8B5;
+    padding: 10px;
+    width: auto;
+    font-size: 50px;
+}
